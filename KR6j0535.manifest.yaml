@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6j0535/v1
+canonical_location: https://kanripo.org/bkk/KR6j0535/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 宿曜儀軌
+  identifiers:
+    alt_id:
+    - T21n1304
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1304.xml
+    old_id: T21n1304
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 原
+  label: 原
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0535_000.yaml, hash: 'sha256:452de2dde94fb207acac12b50885a2560eef0538e8a46e74e0169b4210621ae9'}
+  - {seq: 1, filename: KR6j0535_001.yaml, hash: 'sha256:b58e77a7d5832df5e84cc1441d053b25de0d3867df3728508bbddde7020a3452'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0535_001.markers.yaml, hash: 'sha256:a775647ec032a97d4a02d7f65599bdbda4a0de2a8445623ce5420653b04e3962'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0535_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1554
+  label: 宿曜儀軌一卷
+  type: juan
+  level: 1
+hash: sha256:e985d3cf2f790ef7c871f0c0d6644888d64adbc3e6f231f72b3821892b7497ce
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

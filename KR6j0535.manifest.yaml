@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0535/v1
 canonical_location: https://kanripo.org/bkk/KR6j0535/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 宿曜儀軌
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0535_000.yaml, hash: 'sha256:452de2dde94fb207acac12b50885a2560eef0538e8a46e74e0169b4210621ae9'}
-  - {seq: 1, filename: KR6j0535_001.yaml, hash: 'sha256:aa93acd093144a5b60ef4ef7bccde087462018385d52d54f37b9d06057fa50e5'}
+  - {seq: 1, filename: KR6j0535_001.yaml, hash: 'sha256:07aafba23f659ef03eb2080d39a9b206b8817e4e34df9a4933a06fd11d43ff01'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0535_000.markers.yaml, hash: 'sha256:b7bf1f69c0914892f2cd58c99ed3d8fb23a2c9cb5ad902f300751333c8dacc37'}
-  - {seq: 1, role: markers, filename: assets/KR6j0535_001.markers.yaml, hash: 'sha256:aaa20da9616e4aa65550f9ba0e5413738f684f3776098a496979549c8ae5020a'}
+  - {seq: 1, role: markers, filename: assets/KR6j0535_001.markers.yaml, hash: 'sha256:65ae896499dfc3b76bc873b87bc773d7ff08938d44b914df2f0b4a914a5d6935'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 宿曜儀軌一卷
   type: juan
   level: 1
-hash: sha256:60d99ecb854b209c10320a84ea7118967eb7668f010ad8726e65cefefeeece97
+hash: sha256:dc369d007486e8b0a0c519348071424d0f16d526c0186eacc1a4e10ca7b215c2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
